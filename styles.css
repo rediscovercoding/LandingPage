@@ -3,9 +3,6 @@
 body{
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    
 }
 .header{
     display:flex;
@@ -33,7 +30,7 @@ body{
 .content{
     display:flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 1;
     flex-direction: center;
     
 }
@@ -67,7 +64,7 @@ body{
 
 
 .topright{
-    width: 110px;
+    width: 105px;
     height: 110px;
     padding: 20px;
     background-color: gray;
@@ -109,14 +106,17 @@ button {
 
 .footer{
     text-align: center;
-    display: flex;
+    
     background: #1f2937;
     font-size: 12px;
     color: white;
-    align-items: flex-end;
-    justify-content: center;
+    width: 100%;
     padding: 10px;
-}
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  
+}    
 .tmtext {
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
@@ -151,4 +151,13 @@ button {
 * {
     
     margin: 0px;
+}
+.signupbox{
+    Color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+.author{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
 }
