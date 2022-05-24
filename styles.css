@@ -1,29 +1,41 @@
-* {font-family: roboto, sans-serif;}
+*{}
+
 body{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
 }
 .header{
     display:flex;
     background: #1f2937;
     color: white;    
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+    margin: none;
+    
 }
 .HeaderLogo{
     font-size: medium; 
     font-weight: 800;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 .links{
     display:flex;
     gap:22px;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
 }
 .content{
     display:flex;
     flex-direction: column;
-
+    flex: 1 1 auto;
+    flex-direction: center;
+    
 }
 
 .top{
@@ -41,6 +53,8 @@ body{
     flex-direction: column;
     align-items: center;
     flex: 1 1 auto;
+    padding: 20px;
+    
 }
 
 .bottommiddle{
@@ -48,12 +62,13 @@ body{
     padding: 24px;
     text-align: center;
     flex: 1 1 auto;
+    
 }
 
 
 .topright{
-    width: 200px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     padding: 20px;
     background-color: gray;
     
@@ -65,18 +80,75 @@ button {
     border: none;
     padding: 5px;
     width: 100px;
+    margin: 10px;
 }
 .tmlist{
     display: flex;
     padding: 8px;
     gap: 8px;
-    
-    
+    text-align: center;
+    font-family: 'Roboto';
 }
 .tmlist img{
     border: 2px solid #3882F6;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: auto;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
+    
+}
+
+.quote{
+    font-style: italic;
+    font-size: 30px;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+.topright img{width: 105px;}
+
+.footer{
+    text-align: center;
+    display: flex;
+    background: #1f2937;
+    font-size: 12px;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+}
+.tmtext {
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.bottom{
+    background-color: #3882F6;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    border-radius: 4px;
+    
+}
+.bottom button {
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.topleft .bold{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    font-family: sans-serif;
+}
+.topleft {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    
+    margin: 0px;
 }
